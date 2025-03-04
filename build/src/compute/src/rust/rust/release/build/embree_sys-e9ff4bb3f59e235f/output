@@ -1,0 +1,7 @@
+cargo:rerun-if-env-changed=EMBREE_ZIP_FILE
+cargo:rerun-if-env-changed=EMBREE_FORCE_BUILD_FROM_SOURCE
+cargo:rerun-if-env-changed=EMBREE_FORCE_BUILD_FROM_SOURCE
+cargo:rustc-link-search=native=/root/.cargo/git/checkouts/embree-sys-7b0093bc4cbb6967/6a0a591/embree/bin/
+cargo:rustc-link-search=native=/root/.cargo/git/checkouts/embree-sys-7b0093bc4cbb6967/6a0a591/embree/lib/
+cargo:rustc-link-lib=dylib=embree4
+cargo:rerun-if-env-changed=EMBREE_DLL_OUT_DIR
