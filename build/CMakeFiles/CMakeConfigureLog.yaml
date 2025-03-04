@@ -1,0 +1,991 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      The system is: Linux - 5.18.0-0.bpo.1-amd64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/3.26.0/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/3.26.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-CKh2yU"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-CKh2yU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-CKh2yU
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1fab5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fab5.dir/build.make CMakeFiles/cmTC_1fab5.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-CKh2yU'
+        Building C object CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -std=c11   -v -o CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+        COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o -std=c11 -version -fasynchronous-unwind-tables -o /tmp/ccLbYG3z.s
+        GNU C11 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)
+        	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/10/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C11 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)
+        	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 1f803793fa2e3418c492b25e7d3eac2f
+        COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o /tmp/ccLbYG3z.s
+        GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_1fab5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fab5.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o -o cmTC_1fab5 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1fab5' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgipPT1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1fab5 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1fab5' '-mtune=generic' '-march=x86-64'
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-CKh2yU'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/10/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/10/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-CKh2yU]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1fab5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fab5.dir/build.make CMakeFiles/cmTC_1fab5.dir/build]
+        ignore line: [gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-CKh2yU']
+        ignore line: [Building C object CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -std=c11   -v -o CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o -std=c11 -version -fasynchronous-unwind-tables -o /tmp/ccLbYG3z.s]
+        ignore line: [GNU C11 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 1f803793fa2e3418c492b25e7d3eac2f]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o /tmp/ccLbYG3z.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_1fab5]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fab5.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o -o cmTC_1fab5 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1fab5' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgipPT1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1fab5 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccgipPT1.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1fab5] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
+          arg [CMakeFiles/cmTC_1fab5.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10] ==> [/usr/lib/gcc/x86_64-linux-gnu/10]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/10;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-kSCMET"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-kSCMET"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-kSCMET
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0e3c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e3c7.dir/build.make CMakeFiles/cmTC_0e3c7.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-kSCMET'
+        Building CXX object CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -std=c++2a   -v -o CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+        COLLECT_GCC_OPTIONS='-std=c++2a' '-v' '-o' 'CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o -std=c++2a -version -fasynchronous-unwind-tables -o /tmp/cc4poaGJ.s
+        GNU C++17 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)
+        	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/10"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/10
+         /usr/include/x86_64-linux-gnu/c++/10
+         /usr/include/c++/10/backward
+         /usr/lib/gcc/x86_64-linux-gnu/10/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)
+        	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 048fcaee3460a99eb0d68522358720e1
+        COLLECT_GCC_OPTIONS='-std=c++2a' '-v' '-o' 'CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc4poaGJ.s
+        GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-std=c++2a' '-v' '-o' 'CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_0e3c7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e3c7.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0e3c7 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e3c7' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxf1M8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0e3c7 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e3c7' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-kSCMET'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/10]
+          add: [/usr/include/x86_64-linux-gnu/c++/10]
+          add: [/usr/include/c++/10/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/10] ==> [/usr/include/c++/10]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/10] ==> [/usr/include/x86_64-linux-gnu/c++/10]
+        collapse include dir [/usr/include/c++/10/backward] ==> [/usr/include/c++/10/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/10/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/10;/usr/include/x86_64-linux-gnu/c++/10;/usr/include/c++/10/backward;/usr/lib/gcc/x86_64-linux-gnu/10/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-kSCMET]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0e3c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e3c7.dir/build.make CMakeFiles/cmTC_0e3c7.dir/build]
+        ignore line: [gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-kSCMET']
+        ignore line: [Building CXX object CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -std=c++2a   -v -o CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++2a' '-v' '-o' 'CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o -std=c++2a -version -fasynchronous-unwind-tables -o /tmp/cc4poaGJ.s]
+        ignore line: [GNU C++17 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/10"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/10]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/10]
+        ignore line: [ /usr/include/c++/10/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 048fcaee3460a99eb0d68522358720e1]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++2a' '-v' '-o' 'CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc4poaGJ.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++2a' '-v' '-o' 'CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_0e3c7]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e3c7.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0e3c7 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e3c7' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxf1M8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0e3c7 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccfxf1M8.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0e3c7] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
+          arg [CMakeFiles/cmTC_0e3c7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10] ==> [/usr/lib/gcc/x86_64-linux-gnu/10]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/10;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/local/share/cmake-3.26/Modules/FindCUDAToolkit.cmake:1009 (find_package)"
+      - "src/compute/scripts/validate_options.cmake:96 (find_package)"
+      - "src/compute/CMakeLists.txt:53 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-LnoU1U"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-LnoU1U"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-LnoU1U
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6c73f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6c73f.dir/build.make CMakeFiles/cmTC_6c73f.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-LnoU1U'
+        Building C object CMakeFiles/cmTC_6c73f.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=c11 -o CMakeFiles/cmTC_6c73f.dir/src.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-LnoU1U/src.c
+        Linking C executable cmTC_6c73f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c73f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6c73f.dir/src.c.o -o cmTC_6c73f 
+        /usr/bin/ld: CMakeFiles/cmTC_6c73f.dir/src.c.o: in function `main':
+        src.c:(.text+0x2f): undefined reference to `pthread_create'
+        /usr/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+        /usr/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+        /usr/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_6c73f.dir/build.make:99: cmTC_6c73f] Error 1
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-LnoU1U'
+        gmake: *** [Makefile:127: cmTC_6c73f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/usr/local/share/cmake-3.26/Modules/FindCUDAToolkit.cmake:1009 (find_package)"
+      - "src/compute/scripts/validate_options.cmake:96 (find_package)"
+      - "src/compute/CMakeLists.txt:53 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-gIRlmV"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-gIRlmV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-gIRlmV
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e81f4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e81f4.dir/build.make CMakeFiles/cmTC_e81f4.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-gIRlmV'
+        Building C object CMakeFiles/cmTC_e81f4.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -std=c11 -o CMakeFiles/cmTC_e81f4.dir/CheckFunctionExists.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-gIRlmV/CheckFunctionExists.c
+        Linking C executable cmTC_e81f4
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e81f4.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_e81f4.dir/CheckFunctionExists.c.o -o cmTC_e81f4  -lpthreads 
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_e81f4.dir/build.make:99: cmTC_e81f4] Error 1
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-gIRlmV'
+        gmake: *** [Makefile:127: cmTC_e81f4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/usr/local/share/cmake-3.26/Modules/FindCUDAToolkit.cmake:1009 (find_package)"
+      - "src/compute/scripts/validate_options.cmake:96 (find_package)"
+      - "src/compute/CMakeLists.txt:53 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-mOS5ZU"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-mOS5ZU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-mOS5ZU
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c84a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c84a9.dir/build.make CMakeFiles/cmTC_c84a9.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-mOS5ZU'
+        Building C object CMakeFiles/cmTC_c84a9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -std=c11 -o CMakeFiles/cmTC_c84a9.dir/CheckFunctionExists.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-mOS5ZU/CheckFunctionExists.c
+        Linking C executable cmTC_c84a9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c84a9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_c84a9.dir/CheckFunctionExists.c.o -o cmTC_c84a9  -lpthread 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-mOS5ZU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:498 (check_library_exists)"
+      - "src/compute/src/ext/glfw/src/CMakeLists.txt:182 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-rqCWtV"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-rqCWtV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/src/compute/src/ext/glfw/CMake/modules"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-rqCWtV
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c9c5b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9c5b.dir/build.make CMakeFiles/cmTC_c9c5b.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-rqCWtV'
+        Building C object CMakeFiles/cmTC_c9c5b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=c11 -o CMakeFiles/cmTC_c9c5b.dir/CheckFunctionExists.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-rqCWtV/CheckFunctionExists.c
+        Linking C executable cmTC_c9c5b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9c5b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_c9c5b.dir/CheckFunctionExists.c.o -o cmTC_c9c5b  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-rqCWtV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:513 (check_function_exists)"
+      - "src/compute/src/ext/glfw/src/CMakeLists.txt:182 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-oYXhgU"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-oYXhgU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/src/compute/src/ext/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-oYXhgU
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3bfbc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3bfbc.dir/build.make CMakeFiles/cmTC_3bfbc.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-oYXhgU'
+        Building C object CMakeFiles/cmTC_3bfbc.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=c11 -o CMakeFiles/cmTC_3bfbc.dir/CheckFunctionExists.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-oYXhgU/CheckFunctionExists.c
+        Linking C executable cmTC_3bfbc
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bfbc.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_3bfbc.dir/CheckFunctionExists.c.o -o cmTC_3bfbc 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-oYXhgU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:527 (check_function_exists)"
+      - "src/compute/src/ext/glfw/src/CMakeLists.txt:182 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6Qb4AW"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6Qb4AW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/src/compute/src/ext/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6Qb4AW
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7f672/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f672.dir/build.make CMakeFiles/cmTC_7f672.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6Qb4AW'
+        Building C object CMakeFiles/cmTC_7f672.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -std=c11 -o CMakeFiles/cmTC_7f672.dir/CheckFunctionExists.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6Qb4AW/CheckFunctionExists.c
+        Linking C executable cmTC_7f672
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f672.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_7f672.dir/CheckFunctionExists.c.o -o cmTC_7f672 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6Qb4AW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:536 (check_function_exists)"
+      - "src/compute/src/ext/glfw/src/CMakeLists.txt:182 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-UyUHWT"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-UyUHWT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/src/compute/src/ext/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-UyUHWT
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6eac5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6eac5.dir/build.make CMakeFiles/cmTC_6eac5.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-UyUHWT'
+        Building C object CMakeFiles/cmTC_6eac5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -std=c11 -o CMakeFiles/cmTC_6eac5.dir/CheckFunctionExists.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-UyUHWT/CheckFunctionExists.c
+        Linking C executable cmTC_6eac5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eac5.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_6eac5.dir/CheckFunctionExists.c.o -o cmTC_6eac5 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-UyUHWT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:545 (check_function_exists)"
+      - "src/compute/src/ext/glfw/src/CMakeLists.txt:182 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-zz285W"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-zz285W"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/src/compute/src/ext/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-zz285W
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_16832/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16832.dir/build.make CMakeFiles/cmTC_16832.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-zz285W'
+        Building C object CMakeFiles/cmTC_16832.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -std=c11 -o CMakeFiles/cmTC_16832.dir/CheckFunctionExists.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-zz285W/CheckFunctionExists.c
+        Linking C executable cmTC_16832
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16832.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_16832.dir/CheckFunctionExists.c.o -o cmTC_16832 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-zz285W'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:555 (check_library_exists)"
+      - "src/compute/src/ext/glfw/src/CMakeLists.txt:182 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-qev86W"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-qev86W"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/src/compute/src/ext/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-qev86W
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_36e24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36e24.dir/build.make CMakeFiles/cmTC_36e24.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-qev86W'
+        Building C object CMakeFiles/cmTC_36e24.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -std=c11 -o CMakeFiles/cmTC_36e24.dir/CheckFunctionExists.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-qev86W/CheckFunctionExists.c
+        Linking C executable cmTC_36e24
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36e24.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_36e24.dir/CheckFunctionExists.c.o -o cmTC_36e24  -lICE 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-qev86W'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "src/compute/src/ext/EASTL/scripts/CMake/CommonCppFlags.cmake:6 (check_cxx_compiler_flag)"
+      - "src/compute/src/ext/EASTL/CMakeLists.txt:14 (include)"
+    checks:
+      - "Performing Test EASTL_HAS_FCHAR8T_FLAG"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6qXCYW"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6qXCYW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: ";/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/src/compute/src/ext/EASTL/scripts/CMake"
+    buildResult:
+      variable: "EASTL_HAS_FCHAR8T_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6qXCYW
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e810a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e810a.dir/build.make CMakeFiles/cmTC_e810a.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6qXCYW'
+        Building CXX object CMakeFiles/cmTC_e810a.dir/src.cxx.o
+        /usr/bin/c++ -DEASTL_HAS_FCHAR8T_FLAG  -std=c++2a   -fchar8_t -o CMakeFiles/cmTC_e810a.dir/src.cxx.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6qXCYW/src.cxx
+        Linking CXX executable cmTC_e810a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e810a.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e810a.dir/src.cxx.o -o cmTC_e810a 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-6qXCYW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "src/compute/src/ext/EASTL/scripts/CMake/CommonCppFlags.cmake:7 (check_cxx_compiler_flag)"
+      - "src/compute/src/ext/EASTL/CMakeLists.txt:14 (include)"
+    checks:
+      - "Performing Test EASTL_HAS_ZCCHAR8T_FLAG"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-VIg0fU"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-VIg0fU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: ";/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/src/compute/src/ext/EASTL/scripts/CMake"
+    buildResult:
+      variable: "EASTL_HAS_ZCCHAR8T_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-VIg0fU
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d50f2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d50f2.dir/build.make CMakeFiles/cmTC_d50f2.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-VIg0fU'
+        Building CXX object CMakeFiles/cmTC_d50f2.dir/src.cxx.o
+        /usr/bin/c++ -DEASTL_HAS_ZCCHAR8T_FLAG  -std=c++2a   /Zc:char8_t -o CMakeFiles/cmTC_d50f2.dir/src.cxx.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-VIg0fU/src.cxx
+        c++: error: /Zc:char8_t: No such file or directory
+        gmake[1]: *** [CMakeFiles/cmTC_d50f2.dir/build.make:78: CMakeFiles/cmTC_d50f2.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-VIg0fU'
+        gmake: *** [Makefile:127: cmTC_d50f2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "src/compute/src/ext/reproc/CMakeLists.txt:23 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-8TMZtX"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-8TMZtX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-8TMZtX
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9777d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9777d.dir/build.make CMakeFiles/cmTC_9777d.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-8TMZtX'
+        Building C object CMakeFiles/cmTC_9777d.dir/CheckForPthreads.c.o
+        /usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_9777d.dir/CheckForPthreads.c.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-8TMZtX/CheckForPthreads.c
+        Linking C executable cmTC_9777d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9777d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9777d.dir/CheckForPthreads.c.o -o cmTC_9777d  -pthread 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-8TMZtX'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "src/compute/src/ext/CMakeLists.txt:213 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      cc (Debian 10.2.1-6) 10.2.1 20210110
+      Copyright (C) 2020 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/usr/lib/cmake/pybind11/pybind11Common.cmake:289 (check_cxx_compiler_flag)"
+      - "/usr/lib/cmake/pybind11/pybind11Common.cmake:318 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "/usr/lib/cmake/pybind11/pybind11Common.cmake:374 (_pybind11_generate_lto)"
+      - "/usr/lib/cmake/pybind11/pybind11Config.cmake:249 (include)"
+      - "src/apps/CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test HAS_FLTO"
+    directories:
+      source: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-a8OOPV"
+      binary: "/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-a8OOPV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "HAS_FLTO"
+      cached: true
+      stdout: |
+        Change Dir: /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-a8OOPV
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e6bfd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6bfd.dir/build.make CMakeFiles/cmTC_e6bfd.dir/build
+        gmake[1]: Entering directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-a8OOPV'
+        Building CXX object CMakeFiles/cmTC_e6bfd.dir/src.cxx.o
+        /usr/bin/c++ -DHAS_FLTO  -std=c++2a   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_e6bfd.dir/src.cxx.o -c /host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-a8OOPV/src.cxx
+        Linking CXX executable cmTC_e6bfd
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6bfd.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e6bfd.dir/src.cxx.o -o cmTC_e6bfd  -flto 
+        gmake[1]: Leaving directory '/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/CMakeFiles/CMakeScratch/TryCompile-a8OOPV'
+        
+      exitCode: 0
+...

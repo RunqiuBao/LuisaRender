@@ -1,2 +1,0 @@
-cargo:rerun-if-changed=cpp.toml
-cargo:rerun-if-changed=src/lib.rs

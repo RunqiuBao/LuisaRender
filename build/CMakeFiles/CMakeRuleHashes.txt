@@ -1,0 +1,13 @@
+# Hashes of file build rules.
+ba154d5ec148c82efabe6447331572a9 bin/embree/dummy
+df94654e532ee781b78244d65df12a96 bin/libluisa_compute_api_types.a
+25944a7c4385370b59f017495c3017bd bin/libluisa_compute_backend_impl.so
+96cbeb0af726a898526b7f97974c1c8d bin/libluisa_compute_ir_static.a
+a6211f197f7d2950ca6dc17f83bcbe08 src/compute/src/ext/glfw/src/CMakeFiles/update_mappings
+77ae8689f4ee3f15872dd9264e24db19 src/compute/src/rust/CMakeFiles/libluisa_compute_api_types.a
+77ae8689f4ee3f15872dd9264e24db19 src/compute/src/rust/CMakeFiles/libluisa_compute_ir_static.a
+77ae8689f4ee3f15872dd9264e24db19 src/compute/src/rust/CMakeFiles/luisa_compute_rust_build
+77ae8689f4ee3f15872dd9264e24db19 src/compute/src/rust/CMakeFiles/luisa_compute_rust_build_embree
+77ae8689f4ee3f15872dd9264e24db19 src/compute/src/rust/CMakeFiles/luisa_compute_rust_build_libluisa_compute_backend_impl.so
+0de311f05ab2824137508f5a1d46ccba src/compute/src/rust/rust/release/libluisa_compute_ir_static.a
+0b894d295d146324557fab5df7894e1b src/ext/assimp/CMakeFiles/uninstall

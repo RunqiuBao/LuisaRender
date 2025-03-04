@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/local/bin/cmake;-P;/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/_deps/nvcomp-subbuild/nvcomp-populate-prefix/src/nvcomp-populate-stamp/download-nvcomp-populate.cmake;COMMAND;/usr/local/bin/cmake;-P;/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/_deps/nvcomp-subbuild/nvcomp-populate-prefix/src/nvcomp-populate-stamp/verify-nvcomp-populate.cmake;COMMAND;/usr/local/bin/cmake;-P;/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/_deps/nvcomp-subbuild/nvcomp-populate-prefix/src/nvcomp-populate-stamp/extract-nvcomp-populate.cmake
+source_dir=/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/_deps/nvcomp-src
+work_dir=/host/home/mujin/workspaces/yohohoho/checkoutroot/testappcontroller/test/test_simulationbaseddetection/resource/libs/config_genesis_in_docker/libs/Genesis/genesis/ext/LuisaRender/build/_deps
+url(s)=https://developer.download.nvidia.com/compute/nvcomp/3.0.4/local_installers/nvcomp_3.0.4_x86_64_12.x.tgz
+hash=
+no_extract=
+
